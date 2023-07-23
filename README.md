@@ -14,7 +14,7 @@ The datasets are provided in .CSV files
 * washington.csv
 
 ### Credits
-[w3schools](https://www.w3schools.com/)
-[pandas](https://pandas.pydata.org/docs/)
-[Aritra repo](https://github.com/Aritra96/bikeshare-project/blob/master/bikeshare.py)
+* [w3schools](https://www.w3schools.com/)
+* [pandas](https://pandas.pydata.org/docs/)
+* [Aritra repo](https://github.com/Aritra96/bikeshare-project/blob/master/bikeshare.py)
 
