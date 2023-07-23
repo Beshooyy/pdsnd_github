@@ -217,19 +217,6 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-"""def display(df):
-    f=0
-    see= input("\nWould you like to see some of the raw data?\nAnswer with yes or no").lower()
-    while True:
-        #see= input("\nWould you like to see some of the raw data?\nAnswer with yes or no").lower()
-        if see == 'yes':
-            while f < 5:
-                print(df.head(f))
-                f += 1
-            see = input("\nWould you like to see more of the raw data?\nAnswer with yes or no").lower()
-        elif see =='no':
-            break
-    print('-'*40)"""
 
 def main():
     while True:
