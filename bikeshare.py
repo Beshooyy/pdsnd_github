@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
+import tabulate as tabulate
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -82,7 +83,7 @@ def display(df):
         if see == 'yes':
             end= start+5
             while start < end:
-                print(df[start:end])
+                print(tabulate(df[start:end], headers ="keys"))
                 start += 5
             see = input("\nWould you like to see more of the raw data?\nAnswer with yes or no\n").lower()
         elif see =='no':
@@ -240,6 +241,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
         display(df)
+        pd.set_option('display.max_columns',200)
         
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
