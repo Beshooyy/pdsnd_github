@@ -18,3 +18,5 @@ The datasets are provided in .CSV files
 * [pandas](https://pandas.pydata.org/docs/)
 * [Aritra repo](https://github.com/Aritra96/bikeshare-project/blob/master/bikeshare.py)
 
+### License
+The contents of this repository are covered under the MIT License.
